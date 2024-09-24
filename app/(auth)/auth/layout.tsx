@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <main className="bg-auth flex items-center justify-center min-h-screen">
       <div className="relative p-2 bg-white/20 rounded-lg backdrop-blur-lg">
-        <div className="w-full max-w-md p-8 bg-white rounded-lg shadow-lg">
+        <div className="w-full max-w-xl p-8 bg-white rounded-lg shadow-lg">
           {children}
         </div>
       </div>
